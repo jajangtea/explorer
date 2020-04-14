@@ -56,7 +56,6 @@
             <label for="int">Job Status <?php echo form_error('job_status') ?></label>
             <input type="text" class="form-control" name="job_status" id="job_status" placeholder="Job Status" value="<?php echo $job_status; ?>" />
         </div>
-	    <input type="hidden" name="" value="<?php echo $; ?>" /> 
 	    <button type="submit" class="btn btn-primary"><?php echo $button ?></button> 
 	    <a href="<?php echo site_url('v_photografer') ?>" class="btn btn-default">Cancel</a>
 	</form>
