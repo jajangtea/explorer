@@ -59,13 +59,7 @@
 							<li><a href="<?= base_url('dashboard_studio') ?>">Studio Photo</a></li>
 						</ul>
 					</li>
-					<li data-username="advance components Alert gridstack lightbox modal notification pnotify rating rangeslider slider syntax highlighter Tour Tree view Nestable Toolbar" class="nav-item pcoded-hasmenu">
-						<a href="#!" class="nav-link"><span class="pcoded-micon"><i class="feather icon-gitlab"></i></span><span class="pcoded-mtext">Informasi</span></a>
-
-					</li>
-					<li data-username="extra components Session Timeout Session Idle Timeout Offline" class="nav-item pcoded-hasmenu">
-						<a href="#!" class="nav-link"><span class="pcoded-micon"><i class="feather icon-aperture"></i></span><span class="pcoded-mtext">Tentang Kami</span></a>
-					</li>
+					
 
 					<li class="nav-item pcoded-menu-caption">
 						<label>Chart & Maps</label>
@@ -76,59 +70,7 @@
 	</nav>
 
 	<?php $this->load->view('template_frontend/header') ?>
-	<section class="header-chat">
-		<div class="h-list-header">
-			<h6>Josephin Doe</h6>
-			<a href="#!" class="h-back-user-list"><i class="feather icon-chevron-left"></i></a>
-		</div>
-		<div class="h-list-body">
-			<div class="main-chat-cont scroll-div">
-				<div class="main-friend-chat">
-					<div class="media chat-messages">
-						<a class="media-left photo-table" href="#!"><img class="media-object img-radius img-radius m-t-5" src="<?php echo base_url() ?>assets/backend/template/assets/images/user/avatar-2.jpg" alt="Generic placeholder image"></a>
-						<div class="media-body chat-menu-content">
-							<div class="">
-								<p class="chat-cont">hello Datta! Will you tell me something</p>
-								<p class="chat-cont">about yourself?</p>
-							</div>
-							<p class="chat-time">8:20 a.m.</p>
-						</div>
-					</div>
-					<div class="media chat-messages">
-						<div class="media-body chat-menu-reply">
-							<div class="">
-								<p class="chat-cont">Ohh! very nice</p>
-							</div>
-							<p class="chat-time">8:22 a.m.</p>
-						</div>
-					</div>
-					<div class="media chat-messages">
-						<a class="media-left photo-table" href="#!"><img class="media-object img-radius img-radius m-t-5" src="<?php echo base_url() ?>assets/backend/template/assets/images/user/avatar-2.jpg" alt="Generic placeholder image"></a>
-						<div class="media-body chat-menu-content">
-							<div class="">
-								<p class="chat-cont">can you help me?</p>
-							</div>
-							<p class="chat-time">8:20 a.m.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="h-list-footer">
-			<form action="#">
-				<div class="input-group">
-					<input type="file" class="chat-attach" style="display:none">
-					<a href="#!" class="input-group-prepend btn btn-success btn-attach">
-						<i class="feather icon-paperclip"></i>
-					</a>
-					<input type="text" name="h-chat-text" class="form-control h-send-chat" placeholder="Write hear . . ">
-					<button type="submit" class="btn btn-primary">
-						<i class="feather icon-message-circle"></i>
-					</button>
-				</div>
-			</form>
-		</div>
-	</section>
+
 
 	<div class="pcoded-main-container">
 		<div class="pcoded-wrapper">

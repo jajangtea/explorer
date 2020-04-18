@@ -70,19 +70,19 @@ class Home extends CI_Controller
         $box = [
             [
                 'color'         => 'facebook',
-                'total'     =>0,// $this->home->total('pemandu_wisata'),
+                'total'     => $this->home->total_pemandu_profesional(),
                 'title'        => 'Total Pemandu Wisata',
                 'icon'        => 'users'
             ],
             [
                 'color'         => 'googleplus',
-                'total'     =>0,// $this->home->total('travel_agent'),
+                'total'     =>  $this->home->total_travel_agent(),
                 'title'        => 'Total Travel Agent',
                 'icon'        => 'layer-group'
             ],
             [
                 'color'         => 'success',
-                'total'     =>0,// $this->home->total('photographer'),
+                'total'     =>  $this->home->total_photographer_profesional(),
                 'title'        => 'Total Photographer',
                 'icon'        => 'poll'
             ],
